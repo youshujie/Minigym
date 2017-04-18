@@ -1,0 +1,170 @@
+body,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Mircosoft YaHei", sans-serif;
+}
+.container {
+  width: 100%;
+}
+.header {
+  margin-top: 0.61333333rem;
+  width: 100%;
+  height: 0.58666667rem;
+}
+.header .nearby {
+  float: left;
+  margin-left: 0.4rem;
+  width: 0.46666667rem;
+  height: 100%;
+}
+.header h2 {
+  float: left;
+  width: 8.26666667rem;
+  height: 100%;
+  line-height: 0.58666667rem;
+  text-align: center;
+  font-size: 0.48rem;
+}
+.header .scan {
+  float: right;
+  margin-right: 0.4rem;
+  width: 0.46666667rem;
+  height: 100%;
+}
+.exercise-situation {
+  margin: 0 auto;
+  margin-top: 0.53333333rem;
+  width: 9.2rem;
+  height: 7.98666667rem;
+}
+.exercise-situation .cards-box {
+  width: 9.2rem;
+  height: 6.6rem;
+  overflow: hidden;
+}
+.exercise-situation .cards {
+  position: relative;
+}
+.exercise-situation .cards .card3 {
+  position: absolute;
+  top: 0;
+  left: 0.42666667rem;
+  width: 8.05333333rem;
+  height: 6.6rem;
+  border-radius: 0.04rem;
+  background-color: #fffbec;
+  z-index: 1;
+}
+.exercise-situation .cards .card2 {
+  position: absolute;
+  top: 0.18666667rem;
+  left: 0.13333333rem;
+  width: 8.6rem;
+  height: 6.41333333rem;
+  border-radius: 0.04rem;
+  background-color: #fef2c8;
+  z-index: 2;
+}
+.exercise-situation .card1 {
+  position: absolute;
+  top: 0.45333333rem;
+  left: 0;
+  width: 9.2rem;
+  height: 6.14666667rem;
+  border-radius: 0.04rem 0.04rem 0 0;
+  background-color: #fcd640;
+  z-index: 3;
+}
+.exercise-situation .card1 h3 {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  float: left;
+  font-size: 0.4rem;
+  color: #4e4e50;
+}
+.exercise-situation .card1 .more {
+  float: right;
+  margin: 0.4rem 0.4rem 0 0;
+  width: 0.32rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  border-radius: 50%;
+  background-color: #e4ce54;
+  color: #4e4e50;
+  font-size: 0.24rem;
+  text-align: center;
+}
+.exercise-situation .card1 .time {
+  margin-top: 0.66666667rem;
+}
+.exercise-situation .conveyor {
+  width: 9.2rem;
+  height: 0.17333333rem;
+  background-image: url(../imgs/home_converoy.png);
+  background-size: 100% 100%;
+}
+.exercise-situation .ranking-list {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  box-shadow: 0 0 0.4rem #ececec;
+}
+.exercise-situation .ranking-list p {
+  margin-left: 0.4rem;
+  float: left;
+  font-size: 0.4rem;
+}
+.exercise-situation .ranking-list .top3 {
+  float: right;
+}
+.exercise-situation .ranking-list .top3 img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.34666667rem;
+}
+.exercise-situation .ranking-list .top3 .list-more {
+  margin-left: 0.53333333rem;
+  margin-right: 0.4rem;
+}
+.sub-message {
+  margin: 0 auto;
+  margin-top: 0.66666667rem;
+  width: 9.2rem;
+  height: 4.93333333rem;
+}
+.sub-message .current-people {
+  float: left;
+  margin-right: 0.66666667rem;
+  width: 4.26666667rem;
+  height: 100%;
+  box-shadow: 0 0 0.4rem #ececec;
+}
+.sub-message .remaining-time {
+  float: left;
+  width: 4.26666667rem;
+  height: 100%;
+  box-shadow: 0 0 0.4rem #ececec;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1.38666667rem;
+  box-shadow: 0 0 0.4rem #ececec;
+}
+footer .tab {
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  width: 8.10666667rem;
+  height: 0.58666667rem;
+}
+footer .tab div {
+  float: left;
+  margin-right: 1.89333333rem;
+}
+footer .tab :last-child {
+  margin-right: 0;
+}
