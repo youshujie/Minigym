@@ -1,0 +1,198 @@
+body,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'DC';
+  src: url('../font/PT DIN Condensed Cyrillic_0.ttf');
+}
+@font-face {
+  font-family: 'FG';
+  src: url('../font/FRADMCN.TTF');
+}
+@font-face {
+  font-family: 'H';
+  src: url('../font/HelveticaInserat-Roman-SemiBold.ttf');
+}
+.user {
+  width: 100%;
+  height: 5.33333333rem;
+  background-color: #fce35a;
+  overflow: hidden;
+}
+.user .edit {
+  float: right;
+  margin: 0.64rem 0.4rem 0 0;
+  width: 0.58666667rem;
+  height: 0.58666667rem;
+  background: url(../imgs/user_edit.png);
+  background-size: 100% 100%;
+}
+.user .user-img {
+  margin: 0 auto;
+  margin-top: 1.2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  background: url(../imgs/user_who.png);
+  background-size: 100% 100%;
+}
+.user h2 {
+  margin-top: 0.42666667rem;
+  font-family: 'FG';
+  font-size: 0.48rem;
+  text-align: center;
+  color: #222224;
+}
+.message {
+  width: 100%;
+  height: 2.13333333rem;
+}
+.message .converoy {
+  width: 100%;
+  height: 0.16rem;
+  background: url(../imgs/home_converoy.png);
+  background-size: 100% 100%;
+}
+.message .following,
+.message .lives,
+.message .followers {
+  float: left;
+  width: 33.3333%;
+  height: 1.97333333rem;
+}
+.message .nums {
+  margin-top: 0.50666667rem;
+  text-align: center;
+  font-family: 'H';
+  font-size: 0.61333333rem;
+  color: #4e4e50;
+}
+.message .des {
+  margin-top: 0.21333333rem;
+  text-align: center;
+  font-size: 0.32rem;
+  color: #999999;
+}
+.tabs {
+  margin: 0 auto;
+  margin-top: 0.53333333rem;
+  width: 9.2rem;
+  height: 1.6rem;
+}
+.tabs div {
+  float: left;
+  margin-right: 0.4rem;
+  width: 2.8rem;
+  height: 1.6rem;
+}
+.tabs .time-manage {
+  background: url(../imgs/user_time.png);
+  background-size: 100% 100%;
+}
+.tabs .fitness-record {
+  background: url(../imgs/user_fitness.png);
+  background-size: 100% 100%;
+}
+.tabs .my-collection {
+  margin-right: 0;
+  background: url(../imgs/user_collection.png);
+  background-size: 100% 100%;
+}
+.essay {
+  margin: 0 auto;
+  width: 9.2rem;
+  overflow-y: scroll;
+}
+.essay .article {
+  margin-top: 0.53333333rem;
+  width: 100%;
+  height: 2.64rem;
+  box-shadow: 0 0 0.4rem #ececec;
+}
+.essay .article img {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 2.78666667rem;
+  height: 100%;
+}
+.essay .article p {
+  float: left;
+  width: 5.62666667rem;
+  height: 1.30666667rem;
+  margin-top: 0.4rem;
+  font-size: 0.32rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  color: #4e4e50;
+}
+.essay .par {
+  float: left;
+  margin-top: 0.4rem;
+  font-size: 0.26666667rem;
+  color: #999999;
+}
+.essay .par div {
+  float: left;
+}
+.essay .par .comment-img {
+  margin-right: 0.24rem;
+  width: 0.32rem;
+  height: 0.33333333rem;
+  background: url(../imgs/user_comment.png);
+  background-size: 100% 100%;
+}
+.essay .par .star-img {
+  margin-right: 0.24rem;
+  width: 0.32rem;
+  height: 0.33333333rem;
+  background: url(../imgs/user_star.png);
+  background-size: 100% 100%;
+}
+.essay .par .like-img {
+  margin-right: 0.24rem;
+  width: 0.32rem;
+  height: 0.33333333rem;
+  background: url(../imgs/user_like.png);
+  background-size: 100% 100%;
+}
+.essay .par .par-num {
+  margin-right: 0.64rem;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.38666667rem;
+  box-shadow: 0 0 0.4rem #ececec;
+}
+footer .tab {
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  width: 8.10666667rem;
+  height: 0.98666667rem;
+}
+footer .tab div {
+  width: 0.58666667rem;
+  height: 0.58666667rem;
+  float: left;
+  margin-right: 1.89333333rem;
+}
+footer .tab :last-child {
+  margin-right: 0;
+}
+footer img {
+  width: 100%;
+  height: 100%;
+}
+footer .active {
+  background-color: #fce149;
+}
