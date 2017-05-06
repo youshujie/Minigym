@@ -1,0 +1,202 @@
+body,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei"
+}
+header {
+    width: 100%;
+    height: 112/75rem;
+    line-height: 112/75rem;
+    background-color: #fcdc49;
+    color: #4e4e50;
+    overflow: hidden;
+    .tabs {
+        margin: 0 auto;
+        margin-top: 30/75rem;
+        width: 690/75rem;
+        height: 60/75rem;
+        .add {
+            float: left;
+            width: 40/75rem;
+            height: 40/75rem;
+            background: url(../imgs/time_add.png);
+            background-size: 100% 100%;
+        }
+        .friends,
+        .nearby {
+            width: 216/75rem;
+            height: 60/75rem;
+            line-height: 60/75rem;
+            font-size: 30/75rem;
+            text-align: center;
+            float: left;
+            border-radius: 7/75rem;
+        }
+        .friends {
+            margin-left: 88/75rem;
+            border: 1px solid #4e4e50;
+            border-right: 0;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .nearby {
+            margin-right: 88/75rem;
+            border: 1px solid #4e4e50;
+            border-left: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .on {
+            background: #4e4e50;
+            color: #fce049;
+        }
+        .ann {
+            float: right;
+            width: 40/75rem;
+            height: 40/75rem;
+            background: url(../imgs/time_ann.png);
+            background-size: 100% 100%;
+        }
+    }
+}
+.main {
+    margin-top: 50/75rem;
+    width: 100%;
+    height: 1036/75rem;
+    overflow-y: scroll;
+    .live {
+        margin: 0 auto;
+        width: 690/75rem;
+        margin-bottom: 80/75rem;
+        box-shadow: 0 0 30/75rem #ececec;
+        overflow: hidden;
+        .converoy {
+            float: right;
+            margin: 30/75rem 0;
+            width: 660/75rem;
+            height: 14/75rem;
+            background: url(../imgs/home_converoy.png);
+            background-size: 100% 100%;
+        }
+        .user {
+            float: left;
+            margin: 0 30/75rem;
+            width: 93/75rem;
+            height: 93/75rem;
+        }
+        .par {
+            float: right;
+            margin-right: 30/75rem;
+            width: 506/75rem;
+            .par-title {
+                overflow: hidden;
+            }
+            h3 {
+                float: left;
+                font-size: 30/75rem;
+                color: #4e4e50;
+            }
+            .time,
+            .views {
+                font-size: 20/75rem;
+                color: #999999;
+            }
+            .time {
+                float: right;
+            }
+            .views {
+                margin: 54/75rem 0 30/75rem 0;
+                float: left;
+            }
+            p {
+                float: left;
+                font-size: 22/75rem;
+                color: #4e4e50;
+            }
+            .par-img {
+                margin-top: 30/75rem;
+                margin-right: 15/75rem;
+                width: 236/75rem;
+                height: 236/75rem;
+            }
+            .right {
+                margin-right: 0;
+            }
+            .data {
+                margin: 30/75rem 0;
+                overflow: hidden;
+                .comment,
+                .star,
+                .like {
+                    float: right;
+                    margin-left: 40/75rem;
+                    width: 100/75rem;
+                    height: 42/75rem;
+                    line-height: 42/75rem;
+                    text-align: center;
+                    border: 1px solid #999999;
+                    border-radius: 3px;
+                    color: #999999;
+              
+                }
+                .par-num {
+                    font-size: 0.26rem;                      
+                    float: left;
+                }
+                .like-img,
+                .star-img,
+                .comment-img {
+                    float: left;
+                    margin: 10/75rem 10/75rem; 
+                    width: 20/75rem;
+                    height: 20/75rem;
+                }
+                .like-img {
+                    background-image: url(../imgs/user_like.png);
+                    background-size: 100% 100%;
+                }
+                .star-img {
+                    background-image: url(../imgs/user_star.png);
+                    background-size: 100% 100%;
+                }
+                .comment-img {
+                    background-image: url(../imgs/user_comment.png);
+                    background-size: 100% 100%;
+                }
+            }
+        }
+    }
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 104/75rem;
+    box-shadow: 0 0 30/75rem #ececec;
+    .tab {
+        margin: 0 auto;
+        margin-top: 30/75rem;
+        width: 608/75rem;
+        height: 74/75rem;
+        a {
+            width: 44/75rem;
+            height: 44/75rem;
+            float: left;
+            margin-right: 142/75rem;
+        }
+        :last-child {
+            margin-right: 0;
+        }         
+    } 
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .active {
+        background-color: #fce149;
+    }
+}

@@ -6,6 +6,9 @@ p {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 @font-face {
   font-family: 'DC';
   src: url('../font/PT DIN Condensed Cyrillic_0.ttf');
@@ -284,6 +287,7 @@ p {
   text-align: center;
   font-size: 0.4rem;
   font-family: 'DC';
+  color: #4e4e50;
 }
 .sub-message .remaining-time {
   position: relative;
@@ -325,6 +329,7 @@ p {
   text-align: center;
   font-size: 0.4rem;
   font-family: 'DC';
+  color: #4e4e50;
 }
 footer {
   position: absolute;
@@ -340,7 +345,7 @@ footer .tab {
   width: 8.10666667rem;
   height: 0.98666667rem;
 }
-footer .tab div {
+footer .tab a {
   width: 0.58666667rem;
   height: 0.58666667rem;
   float: left;
