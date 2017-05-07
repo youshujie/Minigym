@@ -12,20 +12,55 @@ var price = $('.price');
 var wtime = $('.pay-time').children;
 var wprice = $('.pay-price').children;
 
-for (let i = 0; i < money.length; i++) {
-    money[i].addEventListener('touchstart', function () {
-        clearClass(money);
-        var str;       
-        if (i == 2 || i == 5) {
-            str = 'money active right ';
-        } else {
-            str = 'money active';
-        }
-        this.className = str;
-        wtime[0].innerHTML = time[i].innerHTML;
-        wprice[0].innerHTML =  price[i].innerHTML;
-    })
-}
+money[0].addEventListener('touchstart', function () {
+    clearClass(money);     
+    var str = 'money active';
+    this.className = str;
+    wtime[0].innerHTML = time[0].innerHTML;
+    wprice[0].innerHTML =  price[0].innerHTML;
+})
+money[1].addEventListener('touchstart', function () {
+    clearClass(money);
+    var str = 'money active';
+    this.className = str;
+    wtime[0].innerHTML = time[1].innerHTML;
+    wprice[0].innerHTML =  price[1].innerHTML;
+})
+money[2].addEventListener('touchstart', function () {
+    clearClass(money);
+    var str = 'money active right';       
+    this.className = str;
+    wtime[0].innerHTML = time[2].innerHTML;
+    wprice[0].innerHTML =  price[2].innerHTML;
+})
+money[3].addEventListener('touchstart', function () {
+    clearClass(money);
+    var str = 'money active';       
+    this.className = str;
+    wtime[0].innerHTML = time[3].innerHTML;
+    wprice[0].innerHTML =  price[3].innerHTML;
+})
+money[4].addEventListener('touchstart', function () {
+    clearClass(money);
+    var str = 'money active';       
+    this.className = str;
+    wtime[0].innerHTML = time[4].innerHTML;
+    wprice[0].innerHTML =  price[4].innerHTML;
+})
+money[5].addEventListener('touchstart', function () {
+    clearClass(money);
+    var str = 'money active';       
+    this.className = str;
+    wtime[0].innerHTML = time[5].innerHTML;
+    wprice[0].innerHTML =  price[5].innerHTML;
+})
+money[5].addEventListener('touchstart', function () {
+    clearClass(money);
+    var str = 'money active right';       
+    this.className = str;
+    wtime[0].innerHTML = time[5].innerHTML;
+    wprice[0].innerHTML =  price[5].innerHTML;
+})
 
 function clearClass(ele) {
     for (var i = 0; i < ele.length; i++) {

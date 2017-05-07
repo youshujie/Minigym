@@ -277,6 +277,14 @@ a {
   font-family: 'DC';
   text-align: center;
 }
+.sub-message .current-people span {
+  display: block;
+  margin-top: -0.21333333rem;
+  margin-left: 3.12rem;
+  color: #fcda49;
+  font-size: 0.53333333rem;
+  font-family: 'DC';
+}
 .sub-message .current-people .subscrible {
   position: absolute;
   left: 0;

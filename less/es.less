@@ -1,0 +1,205 @@
+body,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei"
+}
+@font-face {
+    font-family: 'DC';
+    src: url('../font/PT DIN Condensed Cyrillic_0.ttf');
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 760/75rem;
+    background: #29292a;
+    text-align: center;
+    font-size: 34/75rem;
+    color: #fff;
+    overflow: hidden;
+    background: url(../imgs/es_bg.png);
+    background-size: 100% 100%;
+    .back {
+        float: left;
+        margin: 36/75rem 0 0 30/75rem;
+        width: 20/75rem;
+        height: 36/75rem;
+        background: url(../imgs/es_back.png);
+        background-size: 100% 100%;
+    }
+    h3 {
+        margin-top: 20/75rem;
+    }
+}
+.figure {
+    width: 100%;
+    height: 690/75rem;
+    .total {
+        margin: 0 auto;
+        margin-top: 87/75rem;
+        width: 690/75rem;
+        height: 166/75rem;
+        .extime,
+        .calories {
+            float: left;
+            width: 330/75rem;
+            height: 100%;
+            p {
+                margin-top: 40/75rem;
+                font-family: 'DC';
+                font-size: 56/75rem;
+            }
+        }
+        .extime {
+            margin-right: 30/75rem;
+            background: url(../imgs/es_time.png);
+            background-size: 100% 100%;
+        }
+        .calories {
+            background: url(../imgs/es_cal.png);
+            background-size: 100% 100%; 
+            p {
+                margin-left: 40/75rem;
+            }           
+        }
+    }
+    .histogram {
+        position: absolute;
+        left: 113/75rem;
+        bottom: 110/75rem;
+        width: 608/75rem;
+        height: 247/75rem;
+        div {
+            float: left;
+            height: 20/75rem;
+            width: 53/75rem;
+            margin-right: 35/75rem;
+            background-color: #d9d9d9;
+            border-radius: 3px;
+            box-shadow: 0 0 10/75rem #e3e3e3;
+        }
+        :last-child {
+            margin-right: 0;           
+        }
+        .his-1 {
+            margin-top: (247-158)/75rem;
+            height: 158/75rem;
+        }
+        .his-2 {
+            margin-top: (247-96)/75rem;
+            height: 96/75rem;
+        }
+        .his-3 {
+            margin-top: (247-134)/75rem;
+            height: 134/75rem;
+        }
+        .his-4 {
+            margin-top: (247-247)/75rem;
+            height: 247/75rem;
+        }
+        .his-5 {
+            margin-top: (247-102)/75rem;
+            height: 102/75rem;
+        }
+        .his-6 {
+            margin-top: (247-204)/75rem;
+            height: 204/75rem;
+        }
+        .his-7 {
+            margin-top: (247-158)/75rem;
+            height: 158/75rem;
+        }
+    }
+    .time {
+        position: absolute;
+        left: 113/75rem;
+        bottom: 40/75rem;
+        span {
+            margin-right: 44/75rem;
+            font-size: 24/75rem;
+            font-family: 'DC';
+        } 
+        :last-child {
+            margin-right: 0;           
+        }          
+    }
+}
+.converoy {
+    width: 100%;
+    height: 12/75rem;
+    background: url(../imgs/home_converoy.png);
+    background-size: 100% 100%;
+}
+.classify {
+    width: 100%;
+    height: 180/75rem;
+    background: #f2f2f2;
+    .run {
+        float: left;
+        width: 33.3333%;
+        height: 100%;
+        text-align: center;
+        .run-img {
+            margin: 0 auto;
+            margin-top: 30/75rem;
+            margin-bottom: 20/75rem;
+            width: 44/75rem;
+            height: 44/75rem;
+        }
+        .lau {
+            background: url(../imgs/es_run.png);
+            background-size: 100% 100%;           
+        }
+        .bike {
+            background: url(../imgs/es_bike.png);
+            background-size: 100% 100%;              
+        }
+        .barbell {
+            background: url(../imgs/es_barbell.png);
+            background-size: 100% 100%;  
+        }
+        p {
+            font-family: 'DC';
+            font-size: 24/75rem;
+            color: #666;
+        }
+    }
+}
+.classify-time {
+    margin: 0 auto;
+    margin-top: -37/75rem;
+    width: 690/75rem;
+    height: 138/75rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 30/75rem #ececec;
+    .run-time {
+        float: left;
+        width: 33.333%;
+        height: 100%;
+        h3 {
+            font-family: 'DC';
+            color: #373635;
+            font-size: 56/75rem;
+        }
+        p {
+            font-family: 'DC';
+            color: #8d8d8d;
+            font-size: 24/75rem;
+        }
+    }
+}
+.history {
+    margin: 0 auto;
+    margin-top: 50/75rem;
+    height: 98/75rem;
+    line-height: 98/75rem;
+    width: 380/75rem;
+    background: linear-gradient(90deg, #fccf49, #fce149);
+    font-family: 'DC';
+    font-size: 30/75rem;
+    text-align: center;
+    border-radius: 3px;
+}
