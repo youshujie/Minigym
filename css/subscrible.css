@@ -1,4 +1,5 @@
-body {
+body,
+h3 {
   margin: 0;
 }
 @font-face {
@@ -7,11 +8,11 @@ body {
 }
 @font-face {
   font-family: 'FG';
-  src: url('../FRADMCN.TTF');
+  src: url('../font/FRADMCN.TTF');
 }
 @font-face {
   font-family: 'H';
-  src: url('HelveticaInserat-Roman-SemiBold.ttf');
+  src: url('../font/HelveticaInserat-Roman-SemiBold.ttf');
 }
 header {
   margin: 0 auto;
@@ -23,7 +24,23 @@ header:after {
   display: block;
   clear: both;
 }
-
+.head {
+  width: 100%;
+  height: 1.49333333rem;
+  line-height: 1.49333333rem;
+  background-color: #fcdc49;
+  text-align: center;
+  font-size: 0.45333333rem;
+  color: #4e4e50;
+}
+.head .back {
+  float: left;
+  margin: 0.53333333rem 0 0 0.4rem;
+  width: 0.26666667rem;
+  height: 0.53333333rem;
+  background: url(../imgs/back.png);
+  background-size: 100% 100%;
+}
 .banner {
   float: left;
   width: 2.813333rem;
@@ -80,6 +97,7 @@ footer .btn {
   color: #4e4e50;
   text-align: center;
   background: linear-gradient(90deg, #fccf49, #fcd949);
+  border-radius: 3px;
 }
 
 

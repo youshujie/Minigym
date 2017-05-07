@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+header {
+    width: 100%;
+    height: 2.613333rem;
+    background: #fcdc49;
+    border: 0.001333rem solid transparent;
+}
+@font-face {
+    font-family: 'H';
+    src: url('../font/HelveticaInserat-Roman-SemiBold.ttf');
+}
+.search-con {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 0.533333rem;
+    width: 9.2rem;
+}
+.search-img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0.266667rem;
+    width: 0.48rem;
+    height: 0.48rem;
+}
+.search-con input {
+    box-sizing: border-box;
+    padding-left: 1rem;
+    width: 8.0rem;
+    height: 0.773333rem;
+    font-size: 0.346667rem;
+    background: #fef1b6;
+    border: none;
+}
+.search-con input:focus {
+    outline: none;
+}
+.search-con .layer {
+    float: right;
+    margin-top: 0.13333rem;
+    width: 0.586667rem;
+    height: 0.586667rem;
+}
+.navigator {
+    // display: flex
+}
+.navigator a {
+    display: inline-block;
+    height: 1.013333rem;
+    line-height: 1.23333rem;
+    text-decoration: none;
+    color: #4e4e50;
+    font-size: 0.4rem;
+    font-family: 'H';
+}
+.navigator a.active {
+    border-bottom: 0.066667rem solid #4e4e50;
+}
+.navigator a:first-child {
+    margin-left: 1.066667rem;
+    margin-right: 2.3rem;
+}
+.navigator a:last-child {
+    margin-left: 2.7rem;
+}
+li {
+    list-style: none;
+}
+
+.first-rotate {
+    margin: 0 auto;
+    position: relative;
+    width: 9.333333rem;
+    // height: 3.666667rem;
+    overflow: hidden;
+}
+
+.images {
+    margin: 0 auto;
+    margin-top: .6666667rem;
+    position: relative;
+    width: 9.333333rem;
+    height: 3.666667rem;
+    overflow: hidden;
+}
+
+.images li {
+    position: absolute;
+    left: 0.666667rem;
+    width: 8.0rem;
+    height: 3.666667rem;
+}
+
+.images img {
+    width: 8.0rem;
+    height: 3.666667rem;
+}
+
+.none {
+    z-index: -1;
+    left: -0.066667rem !important;
+}
+
+.showright {
+    animation: toright 0.5s;
+    z-index: 2;
+}
+
+@keyframes toright {
+    from {
+        left: 8.666667rem;
+    }
+    to {
+        left: 0.666667rem;
+    }
+}
+
+.showleft {
+    animation: toleft 0.5s;
+    z-index: 2;
+}
+
+@keyframes toleft {
+    from {
+        left: -8.666667rem;
+    }
+    to {
+        left: 0.666667rem;
+    }
+}
+
+.show {
+    z-index: 1;
+    left: 1.4rem !important;
+}
+
+.index {
+    // position: absolute;
+    // // top: 0.16rem;
+    // left: 0;
+    // right: 0;
+    // margin: auto;
+    margin: 0 auto;
+    width: 2.4rem;
+    height: 0.266667rem;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.index-li {
+    float: left;
+    margin: 0 0.266667rem;
+    width: 0.266667rem;
+    height: 0.32rem;
+    background: #dcdcdc;
+    transition: all 1s;
+    text-align: center;
+}
+
+.index .first {
+    background-color: #fad554;
+}
+
+.essay {
+    margin-top: 0.746667rem;
+    width: 100%;
+    height: 7.5rem;
+    overflow-y: scroll;
+}
+.collections {
+  margin: 0 auto;
+  margin-bottom: 1.06666667rem;
+  width: 9.2rem;
+  height: 3.22666667rem;
+  box-shadow: 0 0 0.4rem #ececec;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.collections .content {
+  float: left;
+}
+.collections .content h2 {
+  margin: 0.4rem 0 0.66666667rem 0.4rem;
+  color: #fce049;
+  font-family: 'DC';
+  font-size: 0.48rem;
+}
+.collections .content p {
+  margin-left: 0.4rem;
+  width: 3.12rem;
+  height: 0.98666667rem;
+  line-height: 0.48rem;
+  color: #4e4e50;
+  font-size: 0.4rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.collections img {
+  float: right;
+  width: 5.01333333rem;
+  height: 100%;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.38666667rem;
+  box-shadow: 0 0 0.4rem #ececec;
+  z-index: 2;
+  background: #fff;
+}
+footer .tab {
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  width: 8.10666667rem;
+  height: 0.98666667rem;
+}
+footer .tab a {
+  width: 0.58666667rem;
+  height: 0.58666667rem;
+  float: left;
+  margin-right: 1.89333333rem;
+}
+footer .tab :last-child {
+  margin-right: 0;
+}
+footer img {
+  width: 100%;
+  height: 100%;
+}
+footer .index {
+  background-color: #fce149;
+}
+
+
+
+
+
+
+
+
+
+
+
+

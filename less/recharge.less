@@ -1,0 +1,158 @@
+body,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei"
+}
+@font-face {
+    font-family: 'H';
+    src: url('../font/HelveticaInserat-Roman-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'DC';
+    src: url('../font/PT DIN Condensed Cyrillic_0.ttf');
+}
+header {
+    width: 100%;
+    height: 320/75rem;
+    line-height: 112/75rem;
+    background: linear-gradient(90deg, #fccf49, #fcd949);
+    text-align: center;
+    font-size: 34/75rem;
+    color: #4e4e50;
+    overflow: hidden;
+    .back {
+        float: left;
+        margin: 40/75rem 0 0 30/75rem;
+        width: 20/75rem;
+        height: 40/75rem;
+        background: url(../imgs/back.png);
+        background-size: 100% 100%;
+    }
+    .remain,
+    .num,
+    .min {
+        float: left;
+        margin-top: .05rem + 20/75rem;
+        margin-bottom: 60/75rem;
+        font-family: 'DC';        
+    }
+    .remain {
+        margin-left: 30/75rem;
+        font-size: 30/75rem;
+        color: #666;
+    }
+    .num {
+        margin-left: 90/75rem;
+        font-size: 90/75rem;
+        color: #fff;
+    }
+    .min {
+        margin-left: 30/75rem;
+        font-size: 40/75rem;
+        color: #fef0b3;
+    }
+    .converoy{
+        float: left;
+        width: 100%;
+        height: 0.16rem;
+        background: url(../imgs/home_converoy.png);
+        background-size: 100% 100%;
+    }
+}
+.way {
+    width: 100%;
+    height: 428/75rem;
+    overflow: hidden;
+    .way-title {
+        margin: 50/75rem 0 50/75rem 30/75rem;
+        font-family: 'DC';
+        font-size: 32/75rem;
+        color: #666;
+    }
+    .money-area {
+        margin: 0 auto;
+        width: 690/75rem;
+        .money {
+            float: left;
+            margin: 0 45/75rem 45/75rem 0;
+            width: 200/75rem;
+            height: 128/75rem;
+            border-radius: 3px;
+            background: #cacaca;
+            text-align: center;
+            font-family: 'H';
+            color: #fff;
+            .time {
+                margin: 20/75rem 0 10/75rem 0;
+                font-size: 34/75rem;
+            }
+            .price {
+                font-size: 26/75rem;
+            }
+        }
+        .right {
+            margin-right: 0;
+        } 
+        .active {
+            background: linear-gradient(90deg, #fccf49, #fcd949);
+        }       
+    }
+
+}
+.standard {
+    width: 100%;
+    height: 350/75rem;
+    overflow-y: scroll;
+    h3 {
+        margin: 80/75rem 0 50/75rem 30/75rem;
+        font-family: 'DC';
+        font-size: 28/75rem;
+        color: #666;
+    }
+    p {
+        margin-left: 30/75rem;
+        line-height: 18/75rem;
+        font-size: 12/75rem;
+        color: #999;
+    }
+}
+.pay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 30/75rem #ececec;
+    text-align: center;
+    z-index: 2;
+    font-size: 24/75rem;
+    div {
+        float: left;
+    }
+    .pay-time,
+    .pay-price {
+        width: 49%;
+        height: 1rem;
+        line-height: 1rem;
+        background: #fff;
+        color: #999;
+    }
+    .line {
+        margin-top: 12/75rem;
+        width: 2%;
+        height: 50/75rem;
+        line-height: 50/75rem;
+        background: #fff;
+        color: #999;
+    }
+    .imm {
+        width: 100%;
+        height: 100/75rem;
+        line-height: 100/75rem;
+        background: linear-gradient(90deg, #fccf49, #fcd949);
+        font-size: 30/75rem;
+        color: #4e4e50;
+    }
+}
