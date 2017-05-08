@@ -105,7 +105,6 @@ p {
 .essay {
   margin: 0 auto;
   width: 9.2rem;
-  overflow-y: scroll;
 }
 .essay .article {
   margin-top: 0.53333333rem;
